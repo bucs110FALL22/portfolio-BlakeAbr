@@ -14,4 +14,4 @@ Preferred Name: Blake
 
 Discord username: ba#8171
 
-REPL url: https://replit.com/@BlakeAbrenica
+REPL url: [https://replit.com/@BlakeAbrenica](https://replit.com/join/qrchkjixpg-blakeabrenica)
