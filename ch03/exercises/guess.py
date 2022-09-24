@@ -2,9 +2,8 @@ import random
 tries = 0
 num = random.randint(1,11)
 
-while tries < 3:
-  print("Guess a number 1 - 10 ")
-  guess = int(input())
+for i in range(3):
+  guess = int(input("Guess a number 1 - 10 "))
   tries = tries + 1
   if guess < num:
     print("Too Low!")
