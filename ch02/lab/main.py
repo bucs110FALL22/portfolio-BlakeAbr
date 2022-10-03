@@ -19,3 +19,4 @@ print(classes_per_week, type(classes_per_week), cost_per_class, type(cost_per_cl
 my_list = ["Blake", 2, 6.9, "doug dimmadome owner of the dimmsdale dimmadome", 10]
 print(random.choice(my_list))
 
+
