@@ -7,7 +7,7 @@ def star_pyramid():
     print("\n")
     
 star_pyramid()
-#Function that creates a reverse pyramid
+#Function that creates reverse pyramid
 def rstar_pyramid():
   rows = int(input("Please enter the number of rows for a reverse pyramid: "))
   for i in range(rows, 0, -1):
