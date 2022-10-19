@@ -1,3 +1,4 @@
+#ScopeandAccumulation
 def multiplybyadding():
     num1 = int(input("Pick a number: "))
     num2 = int(input("Pick a number to multiply by that number: "))
