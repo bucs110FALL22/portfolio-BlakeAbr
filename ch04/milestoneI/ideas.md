@@ -18,12 +18,12 @@ For each one below you should have a basic description of a program idea, a coup
 
 ## Project Idea 1
 
-< add your idea here >
+< A platformer game where the character in an elephant that shoots lasers to complete the level. The level would include multiple enemies and obstacles to go through. The elephant would have the ability to have basic movement such as left, right, down, up, etc.  >
 
 ## Project Idea 2
 
-< add your idea here >
+< A type of fishing game / tracker. The game works by getting data from different areas about weather and current situations to change the atmosphere. Instead of "levels" like a usual game would work, there would be different regions instead. There could be different fish in every region to catch. >
 
 ## Project Idea 3
 
-< add your idea here >
+< A platformer in which the theme is a garden. There are different plots of land and the idea is to complete different levels in order to obtain different seeds. There would also be a fishing minigame that would make you obtain fertilizer to grow your seeds into flowers. >
