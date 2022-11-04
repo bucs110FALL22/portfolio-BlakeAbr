@@ -23,12 +23,39 @@ Come up with interfaces fot 3 possible classes you think you may need. Again, br
 
 ## Class Interface 1
 
-< add your interface >
+class fish
+  attributes
+  x
+  y
+  image
+  type # different breed of fish
+  methods
+  move()
+  stop()
 
 ## Class Interface 2
-
-< add your interface >
+class Player
+  attributes
+  x
+  y
+  image
+  methods
+  throwHook()
+  retrieveHook()
+  hookMove()
+  playerMove()
+  
 
 ## Class Interface 3
-
-< add your interface >
+class Background
+  attributes
+  image
+  spawnsides
+  terrain
+  waterbarrier # keeps player from the water
+  methods
+  changeLocation()
+  goToMenu()
+  
+  
+  
