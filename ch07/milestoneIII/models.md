@@ -31,3 +31,34 @@ Using the example below, list each model class and its interface
     * __init__
         * < description >
     * < additional methods >
+
+## Class Interface 1
+class fish
+  __init__ (self, image, move, stop)
+  self.image = image
+  self.move = move
+  self.stop = stop
+  
+ 
+
+## Class Interface 2
+class Player
+  __init__ (self, image,throwHook, retrieveHook, hookMove, playerMove)
+  self.image = image
+  self.throwHook = throwHook
+  self.retrieve = retrieveHook
+  self.hookMove = hookMove
+  self.playerMove = playerMove
+  
+  
+
+## Class Interface 3
+class Background
+  __init__ (self, image, changeLocation, goToMenu)
+  self.image = image
+  self.changeLocation = Location
+  self.goToMenu = goToMenu
+ 
+  
+  
+  
