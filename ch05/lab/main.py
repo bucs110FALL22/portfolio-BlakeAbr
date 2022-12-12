@@ -1,36 +1,37 @@
 import pygame
-max_so_far = 0
-scale = 5
+pygame.init()
 
+#Part A / B
 
-n = int(input("Please choose a positive integer: "))
-upperLimit = 20
-iters = {}
-count = 0
-start = 2
-for i in range(start, upperLimit):
-  while n != 1:
-    if n % 2 == 0:
-        n = n / 2
-        count = count + 1
-    else:
-        n = (3 * n) + 1
-        count = count + 1
-    if max_so_far < count:
-      max_so_far = count
-    print(n)
-    iters[i] = count
-coords = []
-green = (0,255,0)
-screenheight = 300
-screenwidth = 300
-size = (screenwidth, screenheight)
-print(str(max_so_far) + "is the max")
-threenplus1_iters_dict = list(iters.items())
-coords = [(x* scale, y * scale) for x, y in iters.items()]
-print(str(threenplus1_iters_dict) + "iterations")
-print("There were " + str(count) + " items in the sequence before stopping at 1")
-window = pygame.display.set_mode(size)
-window.fill(green)
-lines = pygame.draw.lines(window, green, True, coords)
-pygame.display.flip()
+def threenplus1():
+  count = 0
+  upperlimit = 20
+  iters = {}
+  start = 2
+  max_so_far = 0
+
+  display = pygame.display.set_mode()
+  n = int(input("Please choose a positive number: "))
+  print(n)
+  for i in range(start, upperlimit):
+    while n > 1:
+      count = count + 1
+      if n % 2 == 0:
+          n = n / 2
+          print(n)
+      else:
+        n = (3*n) + 1
+        print(n)
+      if count > max_so_far:
+            max_so_far = count
+      iters[n] = count
+      coords = []
+    
+    
+    
+  print("There were " + str(count) +" iterations")
+  iters[i] = count
+  print(iters)
+
+threenplus1()
+  
